@@ -12,7 +12,6 @@
       font-family: Arial, sans-serif;
       background: #0f172a;
       color: #e2e8f0;
-      line-height: 1.6;
     }
 
     .container {
@@ -32,23 +31,23 @@
 
     .hero h1 {
       font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      color: #94a3b8;
     }
 
     .section {
       margin-bottom: 50px;
     }
 
-    .projects div {
+    .project {
       background: #1e293b;
-      padding: 15px;
-      margin-bottom: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
       border-radius: 10px;
+    }
+
+    .project a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin-right: 10px;
     }
 
     .skills span {
@@ -59,20 +58,13 @@
       border-radius: 8px;
     }
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
   </style>
 
 </head>
 
 <body>
   <div class="container">
+
 <!-- Hero -->
 <div class="hero">
   <h1>Ashutosh Chaturvedi</h1>
@@ -83,21 +75,28 @@
 <!-- Projects -->
 <div class="section">
   <h2>Projects</h2>
-  <div class="projects">
 
-    <div>
-      <h3>Orbit</h3>
-      <p>AI-powered platform that clusters user thoughts into meaningful topics.</p>
-      <p><strong>Tech:</strong> FastAPI, PostgreSQL, AI</p>
-    </div>
-
-    <div>
-      <h3>Disease Prediction System</h3>
-      <p>Machine learning model to predict diseases based on symptoms.</p>
-      <p><strong>Tech:</strong> Python, scikit-learn</p>
-    </div>
-
+  <div class="project">
+    <h3>Orbit (AI Social Platform)</h3>
+    <p>
+      Built a system that clusters user-generated thoughts into meaningful topics using AI.
+      Designed backend APIs to handle real-time posting and topic grouping.
+    </p>
+    <p><strong>Tech:</strong> FastAPI, PostgreSQL, AI clustering</p>
+    <a href="#">GitHub</a>
+    <a href="#">Live Demo</a>
   </div>
+
+  <div class="project">
+    <h3>Disease Prediction System</h3>
+    <p>
+      Developed a machine learning system to predict diseases based on symptoms.
+      Focused on data preprocessing, model training, and API integration.
+    </p>
+    <p><strong>Tech:</strong> Python, scikit-learn</p>
+    <a href="#">GitHub</a>
+  </div>
+
 </div>
 
 <!-- Skills -->
@@ -117,16 +116,19 @@
   <h2>About</h2>
   <p>
     I am an engineering student focused on backend development and intelligent systems.
-    I enjoy building real-world applications and exploring AI-driven solutions.
+    I enjoy building scalable systems and exploring AI-driven applications.
   </p>
 </div>
 
 <!-- Contact -->
 <div class="section">
   <h2>Contact</h2>
-  <p>Email: ashutoshchaturvedi734.com</p>
-  <p>GitHub: <a href="https://github.com/Ashutosh-Chaturvedi">Ashutosh-Chaturvedi</a></p>
+  <p>Email: ashutoshchaturvedi734@gmail.com</p>
+  <p>
+    GitHub: <a href="https://github.com/Ashutosh-Chaturvedi">Profile</a>
+  </p>
 </div>
+```
 
   </div>
 </body>
